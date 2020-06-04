@@ -60,6 +60,11 @@
     "price": {
       "type": "integer",
       "required": true
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "activities"
     }
   }
 }
