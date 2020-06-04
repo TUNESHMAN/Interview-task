@@ -61,10 +61,10 @@
       "type": "integer",
       "required": true
     },
-    "user": {
+    "author": {
       "plugin": "users-permissions",
       "model": "user",
-      "via": "activities"
+      "via": "activity"
     }
   }
 }
